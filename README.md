@@ -1,29 +1,37 @@
-🎯 **Object Detection Task Using OpenCV and YOLO V5**
-📍Objective-To implement basic object detection using OpenCV and pre-trained YOLO V5 Model.
+# Computer Vision & AI — Object Detection & Image Classification
 
-🧠 **Overview**
-This project demonstrates object detection by identifying and drawing bounding boxes around features such as human faces using YOLO. The implementation is lightweight and suitable for learning foundational computer vision techniques.
+## 📚 Project Overview
 
-🛠️Tools & Libraries
-Language: Python
-Library: OpenCV
-Model: YOLO V5
-IDE: Google Colab
+This repository contains projects and experiments in computer vision and AI focused on:
 
+- Object detection using YOLO v5 + OpenCV  
+- Image classification (e.g., pneumonia vs. normal chest X-rays) using deep learning  
+- Basic image processing techniques such as filtering, edge detection, thresholding  
 
-**🩺 Pneumonia Diagnosis Using Deep Learning**
-📍 Objective
-To build a deep learning model that classifies chest X-ray images as either Pneumonia or Normal, using convolutional neural networks (CNNs) in TensorFlow/Keras.
+---
 
-**🧠 Overview**
-This project utilizes the publicly available Chest X-Ray Images (Pneumonia) dataset from Kaggle. It includes training, validation, and test images, and the model is built using CNN architecture to perform binary classification.
+## 🛠️ Contents & Structure
 
-**🛠️ Tools & Libraries**
-Language: Python 3
+**Description** 
+| `Object Detection using YOLO V5 Model` | Notebook and code implementing object detection with YOLO v5. Includes bounding boxes on objects in images/videos. |
+| `AI-Driven Pneumonia Diagnosis: Chest X-ray Classification` | Deep learning model (TensorFlow/Keras) to classify chest X-ray images as Pneumonia vs. Normal; using CNN / ResNet architectures. | |
 
-Framework: TensorFlow/Keras
+---
 
-Libraries: numpy, matplotlib, pandas, OpenCV
+## 🧠 Tools & Technologies
 
-Model Architecture: ResNet, CNN with layers including Conv2D, MaxPooling, and Dense
+- **Languages:** Python 3  
+- **Libraries / Frameworks:** OpenCV, TensorFlow / Keras, NumPy, Matplotlib, Pandas  
+- **Models:** YOLO v5 for object detection, CNN/ResNet for image classification  
+- **Environments:** Jupyter Notebooks (developed and tested on e.g. Google Colab)  
 
+---
+
+## 🚀 Key Features & Objectives
+
+- Apply object detection to images/videos, detecting objects with bounding boxes (YOLO v5)  
+- Classify medical images (chest X-rays) into pneumonia vs. normal categories  
+- Experiment with low-level image processing (filtering, edge detection, thresholding) to understand how images are manipulated and features revealed  
+- Evaluate model performance (accuracy, loss, sensitivity/specificity for classification tasks)  
+
+---
