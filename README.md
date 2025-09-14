@@ -14,22 +14,21 @@ Model: YOLO V5
 
 IDE: Google Colab
 
-📁 Key Files
-Object Detection Task.ipynb – Implementation of object detection logic
 
-haarcascade_frontalface_default.xml – Used for face detection (optional to include in repo)
 
-✅ Key Features
-Object detection using Haar Cascade Classifiers (e.g., face detection)
+**🩺 Pneumonia Diagnosis Using Deep Learning**
+📍 Objective
+To build a deep learning model that classifies chest X-ray images as either Pneumonia or Normal, using convolutional neural networks (CNNs) in TensorFlow/Keras.
 
-Image preprocessing and grayscale transformation
+**🧠 Overview**
+This project utilizes the publicly available Chest X-Ray Images (Pneumonia) dataset from Kaggle. It includes training, validation, and test images, and the model is built using CNN architecture to perform binary classification.
 
-Bounding box drawing on detected features
+**🛠️ Tools & Libraries**
+Language: Python 3
 
-Real-time detection support (can be extended to webcam)
+Framework: TensorFlow/Keras
 
-Simple and beginner-friendly implementation with OpenCV
+Libraries: numpy, matplotlib, pandas, OpenCV
 
-🚀 Future Improvements
-Extend detection to multiple object types (eyes, smiles, etc.)
-Implement object detection using YOLO or SSD for higher accuracy
+Model Architecture: ResNet, CNN with layers including Conv2D, MaxPooling, and Dense
+
