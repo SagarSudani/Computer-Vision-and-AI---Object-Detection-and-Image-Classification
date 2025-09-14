@@ -1,19 +1,14 @@
-🎯 Object Detection Task Using OpenCV and YOLO V5
-📍 Objective
-To implement basic object detection using OpenCV and pre-trained YOLO V5 Model.
+🎯 **Object Detection Task Using OpenCV and YOLO V5**
+📍Objective-To implement basic object detection using OpenCV and pre-trained YOLO V5 Model.
 
-🧠 Overview
+🧠 **Overview**
 This project demonstrates object detection by identifying and drawing bounding boxes around features such as human faces using YOLO. The implementation is lightweight and suitable for learning foundational computer vision techniques.
 
-🛠️ Tools & Libraries
+🛠️Tools & Libraries
 Language: Python
-
 Library: OpenCV
-
 Model: YOLO V5
-
 IDE: Google Colab
-
 
 
 **🩺 Pneumonia Diagnosis Using Deep Learning**
